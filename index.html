@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html manifest="site.manifest">
+<head>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  	
+</head>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family:  Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;   
+    background: url('panneau solaires.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /*quand on reduit l'image reste centré*/
+    display: flex;
+	  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+	
+section {
+
+}
+
+h1 {
+  color: rgb(38, 28, 28);
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-style: solid;
+  box-shadow: 4px 8px 16px rgba(0,0,0,0.3);
+  border-color: black;
+}
+
+h3 {
+    /* position: absolute;
+    top: 10px; */
+    /* left: 10px; */
+    /* font-size: 22px; */
+    color: #f1f1f1;
+}
+/* 
+iframe {
+  position: absolute;
+  top: 100px;
+} */
+
+	
+</style>
+<body>
+	<div class="logoHautGauche">
+    <h1>STATIONS SOLAIRES TECSOL 🌞</h1>
+		<h3>Agrandissez la fenêtre pour accèder à la carte </h3>
+	</div>
+ 
+  <iframe src="https://www.google.com/maps/d/embed?mid=1-cvQrHVAm6GSjZJ9JGeUKK4XR69pApg&ehbc=2E312F" width="640" height="480"></iframe>
+
+</body>
+
+</html>
